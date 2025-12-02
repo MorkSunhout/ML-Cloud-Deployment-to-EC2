@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Load model
-with open("diabetes_best_model.pkl", "rb") as f:
+with open("diabetes_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 app = FastAPI()
